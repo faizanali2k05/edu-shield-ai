@@ -1,0 +1,14 @@
+[package]
+name = "codeowner"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Parse and match GitHub CODEOWNERS files. Correct pattern semantics, explicit unowned paths, error reporting with line numbers. Zero dependencies, no_std."
+repository = "https://github.com/faizanali2k05/codeowner"
+documentation = "https://docs.rs/codeowner"
+readme = "README.md"
+keywords = ["codeowners", "github", "ownership", "monorepo", "gitignore"]
+categories = ["development-tools", "parser-implementations", "no-std"]
+exclude = ["/.github"]
+
+[dependencies]
