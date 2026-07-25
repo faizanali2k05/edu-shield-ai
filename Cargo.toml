@@ -9,6 +9,6 @@ documentation = "https://docs.rs/codeowner"
 readme = "README.md"
 keywords = ["codeowners", "github", "ownership", "monorepo", "gitignore"]
 categories = ["development-tools", "parser-implementations", "no-std"]
-exclude = ["/.github"]
+exclude = ["/.github", "/.gitignore"]
 
 [dependencies]
